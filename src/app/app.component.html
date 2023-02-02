@@ -1,4 +1,7 @@
-<h1>Hallo Angular</h1>
-{{title}}
-<techstarter-heroes></techstarter-heroes>
+<h1>Welcome to the {{title}}</h1>
+<nav>
+    <a routerLink="/heroes">Heroes</a>
+    <a routerLink="/dashboard">Dashboard</a>
+</nav>
+<router-outlet></router-outlet>
 <techstarter-messages></techstarter-messages>
